@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import Comment from './components/Comment';
 import NewComment from './components/NewComment';
 import DeleteModal from './components/DeleteModal';
-let currentId = 3;
+let currentId = 5;
 
 function App() {
 
