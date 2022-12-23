@@ -13,7 +13,7 @@ function App() {
   const [deleteComment, setDeleteComment] = useState(false);
   
   const addNewReply = (id, content) => {
-    if (!/\S/.test(content)) return;  // to avoid posting empty comments (only whitespaces)
+    if (!/\S/.test(content)) return;  
     let temp = data;
     currentId += 1;
     for (let comment of temp.comments) {
